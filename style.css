@@ -1,0 +1,394 @@
+.nav{
+    display: block;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(22, 225, 254, 0.59);
+    float: left;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.nav p{
+    font-family: "cinzel";
+    color: rgba(215, 0, 202, 0.64);
+    font-size: 30px;
+    line-height: 5px;
+    font-weight: bold;
+    z-index: 3;
+}
+
+.nav ul li {
+    list-style: none;
+    position: relative;
+    float: left;
+    z-index: -2;
+}
+
+.nav ul li a {
+    display: block;
+    font-family: Arial;
+    color: rgb(255, 208, 1);
+    font-size: 15px;
+    padding: 30px 14px;
+    float: left;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav ul li ul  {
+    display: none;
+    position: absolute;
+    background-color: rgba(156, 6, 149, 0.65);
+    border-radius: 4px;
+    float: left;
+    top: 70px;
+    border-radius: 0px 0px 20px 100px;
+    transition-duration: 1.5s;
+}
+
+.nav ul li:hover ul {
+    display: block;
+    z-index: -2;
+    : 3s;
+}
+
+.nav ul li ul:hover  {
+    display: block;
+    position: absolute;
+    background-color: rgba(3, 1, 215, 0.42);
+    border-radius: 0px 0px 100px 20px;
+    float: left;
+    transition-duration: 1.5s;
+}
+
+.nav ul li ul li a {
+    padding: 18px 1px;
+    z-index: -2;
+    transition-duration: 0.5s;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.nav ul li ul li a:hover {
+    background-color: rgba(215, 0, 202, 0.66);
+    border-radius: 40px 40px 40px 40px;
+    z-index: -1;
+    opacity: 0.8
+}
+
+.live {
+    position: absolute;
+    left: 210px;
+    top:  -18px;
+    z-index: 1;
+}
+
+
+.table{
+
+    position: absolute;
+    left: 410px;
+    top:  -18px;
+    z-index: 1;
+
+}
+
+
+.table ul li {
+    list-style: none;
+    position: relative;
+    float: left;
+    z-index: -2;
+}
+
+.table ul li a {
+    display: block;
+    font-family: Arial;
+    color: rgb(255, 208, 1);
+    font-size: 15px;
+    padding: 30px 0px;
+    float: left;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.table ul li ul  {
+    display: none;
+    position: absolute;
+    background-color: rgba(156, 6, 149, 0.65);
+    border-radius: 4px;
+    top: 70px;
+    float: left;
+    border-radius: 0px 0px 20px 100px;
+    transition-duration: 1.5s;
+}
+
+
+.table ul li:hover ul {
+    display: block;
+    z-index: -2;
+: 3s;
+}
+
+.table ul li ul:hover  {
+    display: block;
+    position: absolute;
+    background-color: rgba(3, 1, 215, 0.42);
+    border-radius: 0px 0px 100px 20px;
+    float: left;
+    transition-duration: 1.5s;
+}
+
+.table ul li ul li a {
+    padding: 18px 1px;
+    z-index: -2;
+    transition-duration: 0.5s;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.table ul li ul li a:hover {
+    background-color: rgba(215, 0, 202, 0.66);
+    border-radius: 40px 40px 40px 40px;
+    z-index: -1;
+    opacity: 0.8
+}
+
+
+
+.slots{
+
+    position: absolute;
+    left: 610px;
+    top:  -18px;
+    z-index: 1;
+}
+
+
+.slots ul li {
+
+    list-style: none;
+    position: relative;
+    float: left;
+    z-index: 2;
+    padding: 0px 4px;
+
+}
+
+.slots ul li a {
+
+    display: block;
+    font-family: Arial;
+    color: rgb(255, 208, 1);
+    top: 100px;
+    font-size: 15px;
+    padding: 30px 0px;
+    float: left;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.slots ul li ul  {
+    display: none;
+    position: absolute;
+    background-color: rgba(156, 6, 149, 0.65);
+    height:380px;
+    width: 400px;
+    top: 70px;
+    border-radius: 0px 0px 20px 100px;
+    transition-duration: 1.5s;
+}
+
+
+.slots ul li:hover ul {
+    display: block;
+    z-index: -2;
+}
+
+.slots ul li ul:hover  {
+    display: block;
+    position: absolute;
+    height:380px;
+    background-color: rgba(3, 1, 215, 0.42);
+    border-radius: 0px 0px 100px 20px;
+    float: left;
+    transition-duration: 1.5s;
+}
+
+.slots ul li ul li a {
+    padding: 18px 1px;
+    z-index: -2;
+    height:40px;
+    transition-duration: 0.5s;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.slots ul li ul li a:hover {
+    background-color: rgba(215, 0, 202, 0.66);
+    border-radius: 40px 40px 40px 40px;
+    z-index: -1;
+    opacity: 0.8
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.chachugames{
+
+    position: absolute;
+    left: 750px;
+    top:  -18px;
+    z-index: 1;
+
+}
+
+
+.chachugames ul li {
+    list-style: none;
+    position: relative;
+    float: left;
+    z-index: -2;
+}
+
+.chachugames ul li a {
+    display: block;
+    font-family: Arial;
+    color: rgb(255, 208, 1);
+    font-size: 15px;
+    padding: 30px 0px;
+    float: left;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.chachugames ul li ul  {
+    display: none;
+    position: absolute;
+    background-color: rgba(156, 6, 149, 0.65);
+    border-radius: 4px;
+    top: 70px;
+    float: left;
+    border-radius: 0px 0px 20px 100px;
+    transition-duration: 1.5s;
+}
+
+
+.chachugames ul li:hover ul {
+    display: block;
+    z-index: -2;
+: 3s;
+}
+
+.chachugames ul li ul:hover  {
+    display: block;
+    position: absolute;
+    background-color: rgba(3, 1, 215, 0.42);
+    border-radius: 0px 0px 100px 20px;
+    float: left;
+    transition-duration: 1.5s;
+}
+
+.chachugames ul li ul li a {
+    padding: 18px 1px;
+    z-index: -2;
+    transition-duration: 0.5s;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.chachugames ul li ul li a:hover {
+    background-color: rgba(215, 0, 202, 0.66);
+    border-radius: 40px 40px 40px 40px;
+    z-index: -1;
+    opacity: 0.8
+}
+
+
+
+
+
+
+
+#logo{
+    position: absolute;
+    width: 8%;
+    height: 50px;
+    top: 12px;
+    right: 1750px;
+    opacity: 1;
+    transition-duration: 3s;
+
+}
+
+
+
+#logo:hover{
+    position: absolute;
+    height: 50px;
+    width: 8%;
+    top: 12px;
+    right: 1710px;
+    opacity: 1;
+    border-radius: 0px 4px 4px 4px;
+    transition-duration: 3s;
+}
+
+
+
+#moon{
+    position: absolute;
+    width: 10%;
+    right: 25px;
+    bottom: 725px;
+    opacity: 0.2;
+    transition-duration: 3s;
+}
+
+#moon:hover{
+    position: absolute;
+    width: 11%;
+    right: 35px;
+    bottom: 690px;
+    opacity: 1;
+    transition-duration: 3s;
+}
+
+body {
+    background-image: url("https://i.redd.it/6uan5y2bzbh31.jpg");
+    z-index: 0;
+}
+
+
+
+
+
+#mySearch{
+    position: absolute;
+    width: 21%;
+    height: 2%;
+    right: 110px;
+    bottom: 920px;
+
+}
+
+
+
+
+
+.wheel{
+    position: absolute;
+    width: 31%;
+    height: 2%;
+    right: 580px;
+    top: 280px;
+
+
+
+}
